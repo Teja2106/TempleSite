@@ -3,7 +3,7 @@ export default function Footer() {
         <>
             <footer className="bg-gray-800 text-white py-8">
                 <div className="container mx-auto px-4">
-                    <div className="grid grid-cols-4 md:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-4 phone:grid-cols-1 gap-8">
                         <div>
                             <h3 className="text-xl font-bold mb-4">Company</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

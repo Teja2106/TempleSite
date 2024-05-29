@@ -1,7 +1,7 @@
 export default function Cards() {
     return (
         <>
-            <div className="grid grid-cols-2 gap-6 p-6 max-w-screen-lg">
+            <div className="grid grid-cols-2 gap-6 p-6 phone:grid phone:grid-cols-1 max-w-screen-lg">
                 <div className="bg-gray-200 rounded-lg p-6 shadow-lg">
                     <h2 className="text-2xl font-bold mb-2">Seva</h2>
                     <p className="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
