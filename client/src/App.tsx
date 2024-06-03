@@ -1,19 +1,34 @@
 import About from "./components/About";
+import Admin from "./components/Admin";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ImageSlider from "./components/ImageSlider";
 import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
+
+  function HomePage() {
+    return (
+      <>
+        <Header />
+        <Navbar />
+        <ImageSlider />
+        <About />
+        <Cards />
+      </>
+    )
+  }
   return (
     <>
-      <Header />
-      <Navbar />
-      <ImageSlider />
-      <About />
-      <Cards />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" element={ <HomePage /> } />
+          <Route path="/admin" element={ <Admin /> }/>
+        </Routes>
+        <Footer />
+      </Router>
     </>
   )
 }
