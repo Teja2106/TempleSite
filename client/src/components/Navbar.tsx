@@ -1,4 +1,4 @@
-import logo from '../assets/img/logo.png'
+import logo from '../assets/img/logo.jpg'
 export default function Navbar() {
   return (
     <>
@@ -6,7 +6,7 @@ export default function Navbar() {
             <div>
                 <img src={ logo } alt="templeImage" className='h-20 phone:h-16 rounded-[50%] ml-10 phone:ml-6'/>
             </div>
-            <strong className='pc:text-[20px] laptop:text-[20px] pc:pr-[830px] laptop:pr-[190px] phone:text-[15px'>Pallikondeshwara Swamy Devasthanam</strong>
+            <strong className='pc:text-[20px] laptop:text-[20px] pc:pr-[830px] laptop:pr-[190px] phone:text-[12px]'>Pallikondeshwara Swamy Devasthanam</strong>
 
             <ul className='flex gap-10 pr-16'>
               <li>
