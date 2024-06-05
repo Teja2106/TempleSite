@@ -9,7 +9,7 @@ export default {
       'phone': { min: "360px", max: "640px" },
       'tab': { min: "768px", max: "1180px" },
       'laptop': '1280px',
-      'pc': '1920px'
+      'pc': '1920px',
     },
     extend: {},
   },
